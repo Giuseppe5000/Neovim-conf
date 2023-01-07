@@ -48,7 +48,7 @@ tnoremap <Esc> <C-\><C-n>
 inoremap <silent><expr> <TAB> coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<TAB>"
 
 " Start terminal
-autocmd VimEnter * ++nested bel split term://bash | wincmd k
+autocmd VimEnter * ++nested bel split term://bash | 20winc - | wincmd k
 autocmd TermOpen * setlocal nonumber norelativenumber
 
 " NERDTree
