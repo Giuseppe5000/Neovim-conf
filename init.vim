@@ -5,7 +5,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
-Plug 'xiyaowong/nvim-cursorword'
+Plug 'itchyny/vim-cursorword'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}   " Language server and coc extension required
 Plug 'ryanoasis/vim-devicons'											" nerd-fonts required
 Plug 'joshdick/onedark.vim'
@@ -54,14 +54,9 @@ let g:airline#extensions#tabline#show_splits = 0
 let g:airline#extensions#tabline#show_tab_nr = 0
 let g:airline#extensions#tabline#show_tab_type = 0
 
-" CoC extensions
+" CoC
 let g:coc_global_extensions = ['coc-tsserver', 'coc-json', 'coc-css', 'coc-eslint']
-
-" CoC <tab> completion
 inoremap <silent><expr> <TAB> coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<TAB>"
-
-" Cursor highlight
-hi default CursorWord cterm=underline gui=underline
 
 " NERDTree
 autocmd StdinReadPre * let s:std_in=1
