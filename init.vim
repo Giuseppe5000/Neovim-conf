@@ -42,6 +42,7 @@ autocmd TermOpen * setlocal nonumber norelativenumber
 " Airline
 let g:airline_theme = 'onedark'
 let g:airline_powerline_fonts = 1
+au User AirlineAfterInit  :let g:airline_section_z = airline#section#create(['%p%%', ' ℅:%v'])
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_close_button = 0
 let g:airline#extensions#tabline#tabs_label = ''
