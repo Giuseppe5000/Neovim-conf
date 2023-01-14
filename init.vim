@@ -4,7 +4,7 @@ call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-fugitive'
-Plug 'itchyny/vim-cursorword'
+Plug 'tpope/vim-commentary'
 Plug 'ryanoasis/vim-devicons' " nerd-fonts required
 Plug 'joshdick/onedark.vim'
 
