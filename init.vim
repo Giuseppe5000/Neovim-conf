@@ -20,6 +20,9 @@ call plug#end()
 " Generic
 set number
 set cursorline
+set mouse=a
+set incsearch
+set hlsearch
 set title
 set clipboard+=unnamedplus " wl-clipboard or xclip required
 aunmenu PopUp.How-to\ disable\ mouse
@@ -37,6 +40,7 @@ set guifont=DejaVu\ Sans\ Mono:h10
 " Tabs
 set tabstop=2
 set shiftwidth=2
+set autoindent
 
 " Working dir
 set autochdir
