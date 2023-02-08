@@ -23,6 +23,8 @@ set cursorline
 set mouse=a
 set incsearch
 set hlsearch
+set autoread
+set filetype plugin indent on
 set title
 set clipboard+=unnamedplus " wl-clipboard or xclip required
 aunmenu PopUp.How-to\ disable\ mouse
