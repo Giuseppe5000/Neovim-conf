@@ -20,6 +20,7 @@ call plug#end()
 " Generic
 set number
 set cursorline
+set title
 set clipboard+=unnamedplus " wl-clipboard or xclip required
 aunmenu PopUp.How-to\ disable\ mouse
 aunmenu PopUp.-1-
